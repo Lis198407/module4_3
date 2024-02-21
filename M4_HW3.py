@@ -33,7 +33,7 @@ def main():
     if len(sys.argv)<2:           # check weather we have arg in command prompt
         path_info = ''
     else: 
-        path_info = sys.argv[1]   #"D:\\Ihor\\lytvinenko.i GDrive\\AI coding\\GoIT_Python+DataScience\\HomeWorks\\Module3\\"
+        path_info = sys.argv[1] 
     path = Path(path_info)
     get_dir_info(path)
     print(Style.RESET_ALL) #reset all styles

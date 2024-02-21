@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=D:\Ihor\lytvinenko.i GDrive\AI coding\GoIT_Python+DataScience\HomeWorks\Module4\M4_HM3\.venv
+set VIRTUAL_ENV=D:\Ihor\lytvinenko.i GDrive\AI coding\Repositories\module4_3\.venv
 
 if not defined PROMPT set PROMPT=$P$G
 
